@@ -12,9 +12,12 @@ public class Usuario {
             System.out.println("A Tv está ligada");
             System.out.println("Está no canal " + smartTv.canalAtual);
             System.out.println("Está no volume " + smartTv.volume);
-            
+
+            smartTv.aumentaVolume();
+
+            System.out.println("Está no volume " + smartTv.volume);
+
         }
 
-        
     }
 }
