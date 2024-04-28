@@ -21,6 +21,10 @@ public class Usuario {
 
             System.out.println("Está no canal " + smartTv.canalAtual);
 
+            smartTv.mudaCanal(45);
+
+            System.out.println("Está no canal " + smartTv.canalAtual);
+
         }
 
     }

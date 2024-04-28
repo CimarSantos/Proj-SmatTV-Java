@@ -22,9 +22,14 @@ public class SmartTv {
     }
     
     public void voltaCanal() {
-        
+
         canalAtual--;
+
+    }
+    
+    public void mudaCanal(int novoCanal) {
         
+        canalAtual = novoCanal;
     }
 }
 
