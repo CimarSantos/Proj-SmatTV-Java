@@ -11,9 +11,20 @@ public class SmartTv {
     }
     
     public void diminuiVolume() {
-    
+
         volume--;
 
+    }
+    
+    public void passaCanal() {
+
+        canalAtual++;
+    }
+    
+    public void voltaCanal() {
+        
+        canalAtual--;
+        
     }
 }
 

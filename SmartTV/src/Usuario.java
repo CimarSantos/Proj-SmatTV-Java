@@ -17,6 +17,10 @@ public class Usuario {
 
             System.out.println("Está no volume " + smartTv.volume);
 
+            smartTv.passaCanal();
+
+            System.out.println("Está no canal " + smartTv.canalAtual);
+
         }
 
     }
